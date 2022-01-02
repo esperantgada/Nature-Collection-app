@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/default_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/upload_image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_plants_page_upload_image_button"
+            android:backgroundTint="@color/green"
+            android:textColor="@color/white"
+            android:padding="@dimen/default_margin"
+            style="@style/TitleTextStyle"/>
+
+        <ImageView
+            android:id="@+id/uploaded_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/trending3"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/plant_image" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/add_plant_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/add_plants_page_name_input"
+        android:layout_marginTop="@dimen/default_margin"
+        android:paddingLeft="@dimen/default_margin"
+        style="@style/DefaultTextStyle"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/add_plant_description"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/add_plants_page_name_description"
+        android:layout_marginTop="@dimen/default_margin"
+        android:paddingLeft="@dimen/default_margin"
+        style="@style/DefaultTextStyle"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <Spinner
+        android:id="@+id/plant_growing_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:entries="@array/add_plant_grow_spinner_input"
+        android:layout_marginTop="@dimen/default_margin"
+        android:paddingLeft="@dimen/default_margin"
+        style="@style/DefaultTextStyle"/>
+
+    <Spinner
+        android:id="@+id/consumption_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:entries="@array/add_plant_water_spinner_input"
+        android:layout_marginTop="@dimen/default_margin"
+        android:paddingLeft="@dimen/default_margin"
+        style="@style/DefaultTextStyle"/>
+
+
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/darkGray"
+        android:layout_marginTop="15dp"
+        android:text="@string/add_plant_page_confirm_button"/>
+
+</LinearLayout>

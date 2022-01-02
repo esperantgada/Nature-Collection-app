@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Nature Emoi</string>
+
+    <!-- Welcome page-->
+    <string name="home_page_title"> To find out</string>
+    <string name="home_page_last_plant_section"> Last plants</string>
+
+    <!-- Collection page-->
+    <string name="collection_page_title"> My collection</string>
+
+    <!-- Add plants page-->
+    <string name="add_plants_page_title"> Add plants</string>
+    <string name="add_plants_page_upload_image_button"> Upload image</string>
+    <string name="add_plants_page_name_input">@string/item_plant_name</string>
+    <string name="add_plants_page_name_description">@string/item_plant_description</string>
+
+    <string-array name="add_plant_grow_spinner_input">
+        <item>Growing: slow</item>
+        <item>Growing: medium</item>
+        <item>Growing: fast</item>
+    </string-array>
+
+    <string-array name="add_plant_water_spinner_input">
+        <item>Consumption: slow</item>
+        <item>Consumption: medium</item>
+        <item>Consumption: high</item>
+    </string-array>
+
+    <string name="add_plant_page_confirm_button">Confirm</string>
+
+    <!--Details page-->
+    <string name="detail_page_plant_name">Plant name</string>
+    <string name="detail_page_plant_description">Description</string>
+    <string name="detail_page_plant_description_subtitle">Small description</string>
+    <string name="detail_page_plant_growing">Growing</string>
+    <string name="detail_page_plant_growing_subtitle">slow</string>
+    <string name="detail_page_plant_consumption">Consumption</string>
+    <string name="detail_page_plant_consumption_subtitle">low</string>
+
+
+    <!--Plants customise-->
+    <string name="item_plant_name"> Plant name</string>
+    <string name="item_plant_description"> Plant description</string>
+    <string name="plant_image">Plant image</string>
+    <string name="star_image">Star image</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="collection">Collection</string>
+    <string name="add">Add</string>
+</resources>
